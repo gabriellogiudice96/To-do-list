@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing:  border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #153677, #0f5f08);
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+}
+
+
+
+
+
+.search{
+    display: flex;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 18px;
+    max-width: 340px;
+    margin-bottom: 25px;
+
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+button{
+    border: none;
+    padding: 16px 50px;
+    background: #002408;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    
+
+}
+button:hover{
+    background: #0f5f08;
+
+}
+
+
+.btn-delete:hover img{
+    content: url(images/check.png);
+}
+
+.btn-delete:hover{
+
+    background: #02bd1b;
+}
+
+.btn-delete{
+    background: #c60808;
+    padding: 4px 15px;
+}
+
+
+ul {
+    list-style: none;
+    font-size: 17px;
+    padding: 20px 8px 12px 50px;
+    cursor: pointer;
+    color: #edeef0;
+}
+
+li::first-letter{
+    text-transform: uppercase;
+}
+
+li:hover{
+    text-decoration: line-through;
+    color: #02bd1b;
+}
+
+
+
+
+
+
+.title{
+    display: flex;
+    align-items: center;
+    
+}
+
+img{
+    height: 28px;
+    vertical-align: middle;
+
+}
+
+
+
+h1 {
+    color: #edeef0;
+    font-size: 28px;
+    font-weight: normal;
+    margin: 5%;
+    
+} 
+
+
+.korean{
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    color: #edeef0;
+}
+
+.empty{
+    color: #edeef0;
+}
+
+ 
+
